@@ -8,13 +8,8 @@ class AdminMakanan
 
 end
 
-am = AdminMakanan.new
-lain = AdminMakanan.new
-am.nama ='ray'
-am.namaLain ='mi'
-lain.namaLain = 'bio'
-puts "namanya "+am.nama+" lalu "+am.namaLain
-puts "lainnya "+am.namaLain
+
+
 
 
 

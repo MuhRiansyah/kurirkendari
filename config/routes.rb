@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  # root :to => 'index#index'
+  # root 'index#index'
+  match ':controller(/:action(/:id))',:via => :get
+  root 'index#index'
+
 end
