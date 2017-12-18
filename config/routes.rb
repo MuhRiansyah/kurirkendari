@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   # root 'index#index'
   match ':controller(/:action(/:id))',:via => :get
   root 'index#index'
-
+  :controller
+  
 end
